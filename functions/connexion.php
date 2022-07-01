@@ -1,9 +1,9 @@
 <?php
 
     $hostname = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "projet";
+    $username = "tp_ict4d";
+    $password = "tp_ict4d";
+    $dbname = "tp_ict4d";
 
     try{
         $db = new PDO('mysql:host='.$hostname.';dbname='.$dbname.'', $username, $password);
